@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "NodeNext", // Use "commonjs" for compatibility with Node.js 20
+    "moduleResolution": "NodeNext", // Adjust module resolution if needed
+    "outDir": "./dist",
+    "rootDir": "./backend",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "baseUrl": "./backend",
+    "noEmit": true, // Set noEmit to true for compilation
+    "allowImportingTsExtensions": true,
+    "sourceMap": true,
+  },
+  "include": ["backend/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
